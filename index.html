@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sagor's Infinity Lab</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7ff;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#0f172a,#7c3aed);
+    color:white;
+    padding:20px 8%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:50px 8%;
+}
+
+.hero-content h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin:5px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#0ea5e9;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+    color:#0f172a;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#7c3aed;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.feature{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.teachers{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.teacher{
+    background:white;
+    text-align:center;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.teacher img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+
+.contact{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.contact h2{
+    color:white;
+}
+
+footer{
+    background:#020617;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div class="logo">Sagor's Infinity Lab</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Courses</a></li>
+<li><a href="#">Teachers</a></li>
+<li><a href="#">Results</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Sagor's Infinity Lab</h1>
+<p>The Smart Learning Hub for Class 6–10 Students</p>
+
+<a href="#" class="btn">Admission Open</a>
+<a href="#" class="btn">Free Demo Class</a>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Courses We Offer</h2>
+
+<div class="cards">
+<div class="card">
+<h3>Class 6</h3>
+<p>Strong foundation in Mathematics, English, Science and ICT.</p>
+</div>
+
+<div class="card">
+<h3>Class 7</h3>
+<p>Interactive classes with regular assessments.</p>
+</div>
+
+<div class="card">
+<h3>Class 8</h3>
+<p>Preparation for higher secondary academic excellence.</p>
+</div>
+
+<div class="card">
+<h3>Class 9-10</h3>
+<p>SSC preparation with model tests and revision programs.</p>
+</div>
+</div>
+</section>
+
+<section style="background:#eef2ff;">
+<h2 class="section-title">Why Choose Us?</h2>
+
+<div class="features">
+<div class="feature">✅ Experienced Teachers</div>
+<div class="feature">✅ Weekly Exams</div>
+<div class="feature">✅ Small Batch Classes</div>
+<div class="feature">✅ Parent Updates</div>
+<div class="feature">✅ Online & Offline Support</div>
+<div class="feature">✅ SSC Preparation</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Our Teachers</h2>
+
+<div class="teachers">
+
+<div class="teacher">
+<img src="https://via.placeholder.com/120" alt="">
+<h3>Teacher Name</h3>
+<p>Mathematics Specialist</p>
+</div>
+
+<div class="teacher">
+<img src="https://via.placeholder.com/120" alt="">
+<h3>Teacher Name</h3>
+<p>English Specialist</p>
+</div>
+
+<div class="teacher">
+<img src="https://via.placeholder.com/120" alt="">
+<h3>Teacher Name</h3>
+<p>Science Specialist</p>
+</div>
+
+</div>
+</section>
+
+<section style="background:#f8fafc;">
+<h2 class="section-title">Student Success</h2>
+
+<div class="cards">
+<div class="card">
+<h3>95%</h3>
+<p>Students improve their academic performance.</p>
+</div>
+
+<div class="card">
+<h3>500+</h3>
+<p>Happy Students.</p>
+</div>
+
+<div class="card">
+<h3>100%</h3>
+<p>Dedicated academic support.</p>
+</div>
+</div>
+</section>
+
+<section class="contact">
+<h2 class="section-title">Admission Open Now</h2>
+
+<p>Join Sagor's Infinity Lab and build a brighter future.</p>
+
+<br>
+
+<p>📞 Phone: +8801XXXXXXXXX</p>
+<p>📧 Email: info@sagorsinfinitylab.com</p>
+<p>📍 Address: Your Coaching Center Address</p>
+</section>
+
+<footer>
+<p>© 2026 Sagor's Infinity Lab | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
